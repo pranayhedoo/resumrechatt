@@ -1,0 +1,13 @@
+from textblob import TextBlob
+
+# Incorrect sentence typed by a user
+user_input = "I havv a gud experiance in python proggraming"
+
+# Create a TextBlob object
+blob = TextBlob(user_input)
+
+# Use the correct() method
+corrected_sentence = blob.correct()
+
+print("Original:", user_input)
+print("Corrected:", corrected_sentence)
