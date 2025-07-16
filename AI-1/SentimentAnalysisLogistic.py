@@ -1,7 +1,7 @@
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
 
-# Step 1: Sample data
+# Step 1: Sample dataagi
 texts = ["I love it", "I hate it", "Very good", "Very bad"]
 labels = [1, 0, 1, 0]  # 1 = Positive, 0 = Negative
 
